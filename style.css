@@ -1,0 +1,121 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f7f7f7;
+  margin: 0;
+  padding: 0;
+  color: #333;
+  border-radius: 7px;
+}
+header {
+  background: #333;
+  color: #ffffff;
+  padding: 10px 0;
+  text-align: center;
+  font-family: "Vesper Libre", serif;
+  font-weight: 800;
+  font-style: italic;
+  font-size: x-large;
+  border-radius: 7px;
+}
+header .avtar img {
+  margin: 0;
+  padding: 0;
+  height: 100px;
+}
+header h1 {
+  margin: 0;
+  padding: 0;
+}
+.about {
+  font-family: "Vesper Libre", serif;
+  font-weight: 400;
+  font-style: italic;
+  font-size: x-large;
+}
+
+.about p {
+  font-family: "Vesper Libre", serif;
+  font-weight: 400;
+  font-size: x-large;
+}
+.skills {
+  font-family: "Vesper Libre", serif;
+  font-weight: 400;
+  font-style: italic;
+  font-size: x-large;
+}
+.skills ul li {
+  font-family: "Vesper Libre", serif;
+  font-weight: 400;
+  font-size: large;
+}
+.projects {
+  font-family: "Vesper Libre", serif;
+  font-weight: 400;
+  font-style: italic;
+  font-size: x-large;
+}
+section {
+  padding: 20px 40px;
+}
+h2 {
+  color: #444;
+}
+.skills,
+.projects,
+.contact {
+  margin-bottom: 40px;
+}
+.background {
+  background: #bcb3b3;
+  margin: 10px 0;
+  padding: 10px 15px;
+  border-left: 4px solid #333;
+  border-radius: 5px;
+}
+footer {
+  background: #333;
+  color: #fff;
+  padding: 15px;
+  text-align: center;
+  border-radius: 6px;
+}
+.contact {
+  font-family: "Vesper Libre", serif;
+  font-weight: 400;
+  font-style: italic;
+  font-size: large;
+}
+.links {
+  font-family: "Vesper Libre", serif;
+  font-weight: 400;
+  font-style: italic;
+  font-size: large;
+}
+.links .images {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 20px;
+  padding: 10px;
+}
+.links img {
+  height: 37px;
+  filter: invert();
+  cursor: pointer;
+}
+.button {
+  display: flex;
+  justify-content: center;
+}
+.button button {
+  height: 50px;
+  width: 150px;
+  border-radius: 10px;
+  background-color: #333;
+  color: #f7f7f7;
+  font-family: "Vesper Libre", serif;
+  font-weight: 400;
+  font-style: italic;
+  font-size: large;
+  cursor: pointer;
+}
